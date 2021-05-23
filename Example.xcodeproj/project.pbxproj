@@ -13,7 +13,7 @@
 		D1274BEB24EC00B8007B9731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1274BE924EC00B8007B9731 /* Main.storyboard */; };
 		D1274BED24EC00BD007B9731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1274BEC24EC00BD007B9731 /* Assets.xcassets */; };
 		D1274BF024EC00BD007B9731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1274BEE24EC00BD007B9731 /* LaunchScreen.storyboard */; };
-		D1443CF124ED8F5300D4B5B9 /* OMBubbleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1443CF024ED8F5300D4B5B9 /* OMBubbleTextView.swift */; };
+		D142A7632659D79400690368 /* OMBubbleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D142A7622659D79400690368 /* OMBubbleTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D1274BEC24EC00BD007B9731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1274BEF24EC00BD007B9731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1274BF124EC00BD007B9731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1443CF024ED8F5300D4B5B9 /* OMBubbleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMBubbleTextView.swift; sourceTree = "<group>"; };
+		D142A7622659D79400690368 /* OMBubbleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMBubbleTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		D1274BE224EC00B8007B9731 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D142A7612659D79400690368 /* OMBubbleTextView */,
 				D1274BE324EC00B8007B9731 /* AppDelegate.swift */,
 				D1274BE524EC00B8007B9731 /* SceneDelegate.swift */,
 				D1274BE724EC00B8007B9731 /* ViewController.swift */,
@@ -65,10 +66,17 @@
 				D1274BEC24EC00BD007B9731 /* Assets.xcassets */,
 				D1274BEE24EC00BD007B9731 /* LaunchScreen.storyboard */,
 				D1274BF124EC00BD007B9731 /* Info.plist */,
-				D1443CF024ED8F5300D4B5B9 /* OMBubbleTextView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
+		};
+		D142A7612659D79400690368 /* OMBubbleTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D142A7622659D79400690368 /* OMBubbleTextView.swift */,
+			);
+			path = OMBubbleTextView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -142,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1274BE824EC00B8007B9731 /* ViewController.swift in Sources */,
-				D1443CF124ED8F5300D4B5B9 /* OMBubbleTextView.swift in Sources */,
+				D142A7632659D79400690368 /* OMBubbleTextView.swift in Sources */,
 				D1274BE424EC00B8007B9731 /* AppDelegate.swift in Sources */,
 				D1274BE624EC00B8007B9731 /* SceneDelegate.swift in Sources */,
 			);

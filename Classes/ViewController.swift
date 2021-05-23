@@ -25,7 +25,7 @@ class ViewController: UIViewController {
                                height: 100)
         tooltip.alpha = 1.0
         tooltip.textAlignment = .center
-        tooltip.textColor = .black
+        tooltip.textColor = .white
         tooltip.layer.cornerRadius = 6
         tooltip.layer.masksToBounds = true
         tooltip.backgroundColor = .clear
@@ -33,14 +33,14 @@ class ViewController: UIViewController {
         tooltip.layer.borderWidth = 0
         // Shadow
         tooltip.layer.shadowColor   = UIColor.black.cgColor
-        tooltip.layer.shadowOffset  = CGSize(width: 0, height: 2)
+        tooltip.layer.shadowOffset  = CGSize(width: 0, height: 1)
         tooltip.layer.shadowOpacity = 0.7
-        tooltip.layer.shadowRadius  = 3.0
+        tooltip.layer.shadowRadius  = 1.0
         self.view.addSubview(tooltip)
         
         tooltip.string = """
         
-        The problem is that you are not resizing
+        Hi from a BubbleTextView with multiline text support.
         
         """
         
